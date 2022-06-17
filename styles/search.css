@@ -11,7 +11,7 @@ body {
     margin: auto;
 }
 
-.sk_container-mobile {
+.container-mobile {
     display: none;
 }
 
@@ -216,7 +216,7 @@ body {
     right: 0;
 }
 
-.sk_container-2 {
+.container-2 {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
@@ -224,16 +224,16 @@ body {
     margin: auto;
 }
 
-.sk_font-2 {
+.font-2 {
     display: flex;
     border: 1px solid black;
 }
 
-.sk_font-2>i {
+.font-2>i {
     margin: 10px;
 }
 
-.sk_container-2 button {
+.container-2 button {
     background-color: #B00020;
     height: 100%;
     border: none;
@@ -255,13 +255,13 @@ body {
         margin: auto;
     }
 
-    .sk_container-mobile {
+    .container-mobile {
         display: none;
     }
 }
 
 @media only screen and (min-width:575px) and (max-width:991px) {
-    .sk_container-mobile {
+    .container-mobile {
         display: none;
     }
 
@@ -278,33 +278,33 @@ body {
         display: none;
     }
 
-    .sk_container-2 {
+    .container-2 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .sk_container-2>.sk_font-2:nth-child(1) {
+    .container-2>.font-2:nth-child(1) {
         width: 100%;
     }
 
-    .sk_container-2>.sk_font-2:nth-child(2) {
+    .container-2>.font-2:nth-child(2) {
         flex-grow: 1;
     }
 
-    .sk_container-2>.sk_font-2:nth-child(3) {
+    .container-2>.font-2:nth-child(3) {
         flex-grow: 1;
     }
 
-    .sk_container-2>.sk_font-2:nth-child(4) {
+    .container-2>.font-2:nth-child(4) {
         flex-grow: 1;
     }
 
-    .sk_container-2>.sk_font-2:nth-child(5) {
+    .container-2>.font-2:nth-child(5) {
         flex-grow: 1;
     }
 
-    .sk_container-2 button {
+    .container-2 button {
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -343,11 +343,11 @@ body {
         flex-direction: column;
     }
 
-    .sk_container-2 {
+    .container-2 {
         display: none;
     }
 
-    .sk_container-mobile {
+    .container-mobile {
         display: flex;
         background-color: white !important;
         padding-top: 10px;
@@ -355,7 +355,7 @@ body {
         margin-top: 72px;
     }
 
-    .sk_container-mobile>div:nth-child(1) {
+    .container-mobile>div:nth-child(1) {
 
         width: 10%;
         box-sizing: border-box;
@@ -363,12 +363,12 @@ body {
 
     }
 
-    .sk_container-mobile>div>div:nth-child(1) {
+    .container-mobile>div>div:nth-child(1) {
         font-size: 1rem;
         font-weight: 500;
     }
 
-    .sk_container-mobile>div>div:nth-child(2) {
+    .container-mobile>div>div:nth-child(2) {
         font-size: 0.8rem;
         font-weight: 500;
     }
